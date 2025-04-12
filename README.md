@@ -10,9 +10,6 @@ This is a **Roman Numeral Converter** built as part of the [freeCodeCamp JavaScr
 - **Keyboard Support**: Trigger conversions with the **Enter** key or button click.
 - **Responsive Design**: Clean, centered layout with a colorful theme.
 
-## Demo
-Enter a number (e.g., `100`) or Roman numeral (e.g., `C`), click **Convert** or press **Enter**, and see the result. Toggle modes with the **Switch** button for reverse conversion.
-
 ## Installation
 1. **Clone the Repository**:
    ```bash
