@@ -22,7 +22,7 @@ Enter a number (e.g., `100`) or Roman numeral (e.g., `C`), click **Convert** or 
    ```bash
     cd roman-numeral-converter
    ```
-3.  ***Open in Browser:
+3.  **Open in Browser**:
     -   Open index.html in a web browser (e.g., Chrome, Firefox).
     -   Recommended: Use a local server like [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) in VS Code to avoid CORS issues.
 
@@ -46,6 +46,9 @@ Project Structure
 -   index.html: HTML structure for inputs, button, and output.
 -   styles.css: Styling, animations (pulse, tilt-shaking), and error transitions.
 -   script.js: Logic for conversion, validation, mode switching, animations, and event handling.
+
+## Live Demo
+Try it live: https://asavicki.github.io/roman-numeral-converter/
 
 Credits
 -------
