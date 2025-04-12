@@ -60,4 +60,4 @@ Credits
 License
 -------
 
-This project is open-source and available under the .
+This project is open-source and available under the MIT license.
