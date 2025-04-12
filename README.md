@@ -18,12 +18,8 @@ Enter a number (e.g., `100`) or Roman numeral (e.g., `C`), click **Convert** or 
    ```bash
    git clone https://github.com/asavicki/roman-numeral-converter.git
 2.  **Navigate to the Project**:
-
-    bash
-
-    
-
-    `cd roman-numeral-converter`
+   ```bash
+   cd roman-numeral-converter
 
 3.  **Open in Browser**:
     -   Open index.html in a web browser (e.g., Chrome, Firefox).
