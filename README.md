@@ -1,6 +1,24 @@
-`# Roman Numeral Converter  This is a **Roman Numeral Converter** built as part of the [freeCodeCamp JavaScript Algorithms and Data Structures](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/) certification. It converts numbers (1--3999) to Roman numerals and vice versa, with a user-friendly interface, animations, and keyboard support. ## Features  -  **Bidirectional Conversion**: Convert Arabic numbers (1--3999) to Roman numerals or Roman numerals (I--MMMCMXCIX) to Arabic numbers. -  **Mode Switching**: Toggle between Arabic-to-Roman and Roman-to-Arabic modes. -  **Input Validation**: Displays error messages for invalid inputs (e.g., numbers < 1, > 3999, or incorrect Roman numerals). -  **Animations**: Visual feedback with `pulse` (valid inputs) and `tilt-shaking` (errors), plus color and text-shadow transitions for errors. -  **Keyboard Support**: Trigger conversions with the **Enter** key or button click. -  **Responsive Design**: Clean, centered layout with a colorful theme. ## Demo  Enter a number (e.g., `100`) or Roman numeral (e.g., `C`), click **Convert** or press **Enter**, and see the result. Toggle modes with the **Switch** button for reverse conversion. ## Installation  1.  **Clone the Repository**: ```bash git clone https://github.com/asavicki/roman-numeral-converter.git`
+# Roman Numeral Converter
 
-1.  **Navigate to the Project**:
+This is a **Roman Numeral Converter** built as part of the [freeCodeCamp JavaScript Algorithms and Data Structures](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/) certification. It converts numbers (1–3999) to Roman numerals and vice versa, with a user-friendly interface, animations, and keyboard support.
+
+## Features
+- **Bidirectional Conversion**: Convert Arabic numbers (1–3999) to Roman numerals or Roman numerals (I–MMMCMXCIX) to Arabic numbers.
+- **Mode Switching**: Toggle between Arabic-to-Roman and Roman-to-Arabic modes.
+- **Input Validation**: Displays error messages for invalid inputs (e.g., numbers < 1, > 3999, or incorrect Roman numerals).
+- **Animations**: Visual feedback with `pulse` (valid inputs) and `tilt-shaking` (errors), plus color and text-shadow transitions for errors.
+- **Keyboard Support**: Trigger conversions with the **Enter** key or button click.
+- **Responsive Design**: Clean, centered layout with a colorful theme.
+
+## Demo
+Enter a number (e.g., `100`) or Roman numeral (e.g., `C`), click **Convert** or press **Enter**, and see the result. Toggle modes with the **Switch** button for reverse conversion.
+
+## Installation
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   
+2.  **Navigate to the Project**:
 
     bash
 
@@ -8,7 +26,7 @@
 
     `cd roman-numeral-converter`
 
-2.  **Open in Browser**:
+3.  **Open in Browser**:
     -   Open index.html in a web browser (e.g., Chrome, Firefox).
     -   Recommended: Use a local server like [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) in VS Code to avoid CORS issues.
 
