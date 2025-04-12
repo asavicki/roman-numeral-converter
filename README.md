@@ -19,11 +19,6 @@ Enter a number (e.g., `100`) or Roman numeral (e.g., `C`), click **Convert** or 
    git clone https://github.com/your-username/your-repo-name.git
    
 2.  **Navigate to the Project**:
-
-    bash
-
-    CollapseWrapCopy
-
     `cd roman-numeral-converter`
 
 3.  **Open in Browser**:
