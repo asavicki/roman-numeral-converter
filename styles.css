@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    font-family: Underdog
+  }
+  
+  body {
+    background-color: #ff9a3c;
+    color: #155263;
+  }
+  
+  /* SHARED PARAMS */
+  .hidden {
+    display: none
+  }
+  
+  button, label {
+    display: block;
+  }
+  
+  button {
+    background-color: #155263;
+    color: white;
+  }
+  
+  button:hover {
+    color: #ff6f3c;
+    cursor: pointer;
+  }
+  
+  button:active {
+    color: #ff6f3c;
+    cursor: pointer;
+  }
+  
+  .input-container, h1, #output {
+    text-align: center;
+  }
+  
+  .input-container, #output {
+    border: 4px solid #155263;
+    width: 350px;
+    background-color: #ffc93c;
+  }
+  
+  /* HEADER */
+  header {
+    width: 250px;
+    margin: 25px auto;
+  }
+  
+  /* MAIN */
+  .input-container {
+    height: 175px;
+    padding: 25px;
+  }
+  
+  label {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  
+  input {
+    width: 170px;
+    height: 30px;
+    margin-bottom: 15px;
+    background-color: #ff6f3c;
+    outline: none;
+    border: 3px solid #155263;
+    color: #155263;
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  #convert-btn {
+    width: 100px;
+    height: 40px;
+    font-size: 17px;
+    margin-bottom: 30px;
+  
+    &:active {
+      width: 96px;
+      height: 36px;
+      font-size: 16px;
+    }
+  }
+  
+  #output {
+    min-height: 70px;
+    max-height: 140px;
+    margin-top: 15px;
+    text-align: center;
+    text-shadow:
+      1px 0 #155263,
+      0 1px #155263,
+      1px 1px #155263;
+    letter-spacing: 1px;
+    font-size: 25px;
+    padding: 15px;
+    transition: color 0.6s ease-in, text-shadow 0.6s ease-in;
+  }
+  
+  #output.color-transition {
+    color: red;
+    text-shadow:
+      1px 0 red,
+      0 1px red,
+      1px 1px red;
+  }
+  
+  .switch-btn {  
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 25px;
+  
+    &:active {
+      width: 206px;
+      height: 77px;
+      font-size: 24px;
+    }
+  }
+  
+  .tilt-shaking {
+    animation: tilt-shaking 0.4s ease;
+  }
+  
+  .pulse {
+    animation: pulse 0.4s ease;
+  }
+  
+  
+  /* ANIMATION */
+  @keyframes tilt-shaking {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(5deg); }
+    50% { transform: rotate(0deg); }
+    75% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
