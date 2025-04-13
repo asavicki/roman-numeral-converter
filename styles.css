@@ -17,11 +17,13 @@
   
   button, label {
     display: block;
+    
   }
   
   button {
     background-color: #155263;
     color: white;
+    outline: none;
   }
   
   button:hover {
@@ -30,7 +32,7 @@
   }
   
   button:active {
-    color: #ff6f3c;
+    color: white;
     cursor: pointer;
   }
   
