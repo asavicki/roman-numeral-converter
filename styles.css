@@ -23,7 +23,7 @@
   button {
     background-color: #155263;
     color: white;
-    outline: none;
+    border: none;
   }
   
   button:hover {
@@ -35,12 +35,22 @@
     color: white;
     cursor: pointer;
   }
-  
-  .input-container, h1, #output {
+
+  button:focus,
+  button:focus-visible {
+    outline: none;
+    box-shadow: none;
+    border: none;
+  }
+
+  .input-container, 
+  h1, 
+  #output {
     text-align: center;
   }
   
-  .input-container, #output {
+  .input-container, 
+  #output {
     border: 4px solid #155263;
     width: 350px;
     background-color: #ffc93c;
