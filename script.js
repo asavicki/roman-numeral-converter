@@ -139,6 +139,9 @@ const checkInput = () => {
 const handleConvert = (event) => {
   if (event.type === 'click' || (event.type === 'keyup' && event.key === 'Enter')) {
     checkInput();
+
+    romanInput.value = '';
+    numberInput.value = '';
   }
 };
 
